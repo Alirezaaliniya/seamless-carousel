@@ -1,0 +1,55 @@
+{
+  "size": [1080, 1350],
+  "brand": { "name": "NIAS", "handle": "@nias_ir" },
+  "theme": {
+    "bg": "#0f1222",
+    "bg2": "#1b2142",
+    "primary": "#ff7a1a",
+    "secondary": "#4cc9f0",
+    "text": "#f5f6fa",
+    "muted": "#9aa3c0"
+  },
+  "fonts": { "display": "Vazirmatn", "body": "Vazirmatn" },
+  "footer": { "pagination": "numbers", "hint": "ورق بزن" },
+  "spine": { "track": "chart", "trend": "up", "dash": "solid", "area": true, "nodeStyle": "number", "seed": 7 },
+  "bridges": "auto",
+  "slides": [
+    {
+      "type": "title",
+      "kicker": "آموزش وردپرس",
+      "title": "۵ قدم برای یک سایت *سریع‌تر*",
+      "sub": "بدون افزونه‌ی اضافه، فقط با تنظیمات درست",
+      "icon": "rocket"
+    },
+    {
+      "type": "content",
+      "step": 1,
+      "title": "کش صفحه را *روشن* کن",
+      "text": "با یک افزونه‌ی کش سبک، صفحه‌ها یک بار ساخته می‌شوند و به همه سریع تحویل داده می‌شوند.",
+      "icon": "zap"
+    },
+    {
+      "type": "content",
+      "step": 2,
+      "title": "تصاویر را *فشرده* کن",
+      "bullets": ["فرمت `WebP` به‌جای `PNG`", "عرض تصویر به اندازه‌ی نمایش", "بارگذاری تنبل (`lazy`)"],
+      "icon": "image",
+      "layout": "visual-bottom"
+    },
+    {
+      "type": "content",
+      "step": 3,
+      "title": "زمان بارگذاری",
+      "big": "۱.۲s",
+      "text": "هدف: کمتر از ۲ ثانیه روی موبایل",
+      "card": true
+    },
+    {
+      "type": "cta",
+      "title": "این پست را *ذخیره* کن",
+      "text": "قدم‌های بعدی را در پست بعد می‌گوییم",
+      "icon": "sparkles",
+      "actions": [{ "text": "ذخیره", "icon": "bookmark" }, { "text": "اشتراک", "icon": "share-2" }, { "text": "فالو", "icon": "user-plus" }]
+    }
+  ]
+}
